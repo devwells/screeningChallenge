@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,600,900');
+
+#root {
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 28px;
+  margin: 0  auto 1.25em;
+  color: #333;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 23px;
+  font-weight: 600;
+  color: #e71c8d;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #414141;
+}
+
+hr {
+  width: 7em;
+  color: #333;
+}

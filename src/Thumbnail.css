@@ -1,0 +1,28 @@
+.thumbnail {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.thumbnail-img{
+    clip-path: circle(3em at center);
+    height: 6em;
+    width: 6em;
+    padding: 1em;
+}
+
+.disabled {
+    background-color: #333;
+    clip-path: circle(3em at center);
+    cursor: default;
+    pointer-events: none;
+}
+
+.disabled img {
+    opacity:.2;
+}
+
+@media(max-width: 600px) {
+    .thumbnail {
+
+    }
+}
